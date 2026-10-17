@@ -28,6 +28,7 @@ import About from "./components/About";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import Collections from "./components/Collections";
+import OurStory from "./components/OurStory";
 
 const App = () => {
   return (
@@ -37,6 +38,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/collections" element={<Collections />} />
+        <Route path="/ourstory" element={<OurStory />} />
         <Route path="/about" element={<About />} />
       </Routes>
 

@@ -15,7 +15,7 @@ function Navbar() {
         <div className="hidden md:flex items-center gap-9 text-sm font-medium">
           <a href="/" className="hover:opacity-60 transition">Home</a>
           <Link to='/collections'  className="hover:opacity-60 transition">Collections</Link>
-          <a href="#story" className="hover:opacity-60 transition">Our Story</a>
+          <Link to='/ourstory' className="hover:opacity-60 transition">Our Story</Link>
           <Link to="/about" className="transition hover:opacity-60"> About</Link>
         </div>
 
