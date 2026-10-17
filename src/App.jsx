@@ -29,10 +29,12 @@ import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import Collections from "./components/Collections";
 import OurStory from "./components/OurStory";
+import SmoothScroll from "./util/SmoothScroll";
 
 const App = () => {
   return (
     <BrowserRouter>
+    <SmoothScroll/>
       <Navbar />
 
       <Routes>
