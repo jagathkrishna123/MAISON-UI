@@ -1,4 +1,5 @@
 import { ShoppingBag, Menu, Search } from "lucide-react";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
@@ -13,9 +14,9 @@ function Navbar() {
         {/* Navigation links */}
         <div className="hidden md:flex items-center gap-9 text-sm font-medium">
           <a href="/" className="hover:opacity-60 transition">Home</a>
-          <a href="#collections" className="hover:opacity-60 transition">Collections</a>
+          <Link to='/collections'  className="hover:opacity-60 transition">Collections</Link>
           <a href="#story" className="hover:opacity-60 transition">Our Story</a>
-          <a href="#contact" className="hover:opacity-60 transition">Contact</a>
+          <Link to="/about" className="transition hover:opacity-60"> About</Link>
         </div>
 
         {/* Actions */}
