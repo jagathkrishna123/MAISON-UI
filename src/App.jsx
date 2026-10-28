@@ -30,6 +30,7 @@ import Navbar from "./components/Navbar";
 import Collections from "./components/Collections";
 import OurStory from "./components/OurStory";
 import SmoothScroll from "./util/SmoothScroll";
+import ProductDetails from "./pages/ProductDetails";
 
 const App = () => {
   return (
@@ -40,6 +41,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/collections" element={<Collections />} />
+        <Route path="/product/:id" element={<ProductDetails />} />
         <Route path="/ourstory" element={<OurStory />} />
         <Route path="/about" element={<About />} />
       </Routes>
